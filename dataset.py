@@ -25,6 +25,7 @@ st.subheader("Autor: Iker Gerardo Guevara Sanchez")
 
 #Filtros
 st.sidebar.header("Opciones de visualización")
+st.sidebar.image("credencial.jpeg")
 n_rows = st.sidebar.slider("Número de filas a mostrar", 5, len(df), 10)
 
 #Nombre
